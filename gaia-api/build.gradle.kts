@@ -1,7 +1,7 @@
 plugins {
     kotlin("multiplatform")
     id("org.jetbrains.compose")
-//    kotlin("plugin.serialization")
+    kotlin("plugin.serialization")
 }
 
 group = "org.example"
