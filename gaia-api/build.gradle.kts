@@ -1,6 +1,5 @@
 plugins {
     kotlin("multiplatform")
-    id("org.jetbrains.compose")
     kotlin("plugin.serialization")
 }
 
@@ -37,8 +36,7 @@ kotlin {
     sourceSets {
         val jsMain by getting {
             dependencies {
-                implementation(compose.web.core)
-                implementation(compose.runtime)
+
             }
         }
         val jsTest by getting {
